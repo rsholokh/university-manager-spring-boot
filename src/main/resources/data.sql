@@ -1,0 +1,76 @@
+INSERT INTO lectors (id, first_name, last_name, degree, salary) VALUES
+    (1, 'Alicia', 'Fenton', 'Professor', 2000),
+    (2, 'Conrad', 'Flynn', 'Professor', 2100),
+    (3, 'Rebecca', 'Mclean', 'Professor', 2100),
+    (4, 'William', 'White', 'Professor', 2300),
+    (5, 'Andrea', 'Allen', 'Professor', 2150),
+
+    (6, 'Katie', 'Patton', 'Associate professor', 1500),
+    (7, 'David', 'Roberts', 'Associate professor', 1400),
+    (8, 'Sean', 'Moore', 'Associate professor', 1300),
+    (9, 'Leroy', 'Mcphee', 'Associate professor', 1250),
+    (10, 'Alexis', 'Osborn', 'Associate professor', 1450),
+    (11, 'Nichole', 'Brown', 'Associate professor', 1350),
+    (12, 'Crystal', 'Gutierrez', 'Associate professor', 1380),
+    (13, 'Annette', 'Lewis', 'Associate professor', 1550),
+    (14, 'Jean', 'Hogan', 'Associate professor', 1400),
+    (15, 'Ronald', 'Shepherd', 'Associate professor', 1300),
+
+    (16, 'Anthony', 'Lee', 'Assistant', 1000),
+    (17, 'Johnny', 'Barr', 'Assistant', 900),
+    (18, 'Melanie', 'Jefferson', 'Assistant', 850),
+    (19, 'Jeremy', 'Edwards', 'Assistant', 800),
+    (20, 'Jeffrey', 'Hunter', 'Assistant', 1000),
+    (21, 'Tina', 'Thomas', 'Assistant', 750),
+    (22, 'William', 'Calderon', 'Assistant', 950),
+    (23, 'William', 'Austin', 'Assistant', 1000),
+    (24, 'Elizabeth', 'Shepherd', 'Assistant', 700),
+    (25, 'John', 'Rodriguez', 'Assistant', 870),
+    (26, 'Andrew', 'Boyd', 'Assistant', 900),
+    (27, 'Ronald', 'Shepherd', 'Assistant', 830),
+    (28, 'Nicole', 'Taylor', 'Assistant', 780),
+    (29, 'Vincent', 'Coleman', 'Assistant', 930),
+    (30, 'Heather', 'Hess', 'Assistant', 700);
+
+INSERT INTO departments (id, name, head_of_department_id) VALUES
+    (1, 'Biology', 1),
+    (2, 'Mathematics', 2),
+    (3, 'Computer Science', 3),
+    (4, 'Economics', 4),
+    (5, 'Physics', 5);
+
+INSERT INTO departments_lectors (departments_id, lectors_id) VALUES
+    (1, 1),
+    (2, 2),
+    (3, 3),
+    (4, 4),
+    (5, 5),
+    (1, 6),
+    (1, 7),
+    (1, 8),
+    (2, 9),
+    (2, 10),
+    (3, 11),
+    (3, 12),
+    (4, 13),
+    (5, 14),
+    (5, 15),
+    (1, 16),
+    (1, 17),
+    (1, 18),
+    (1, 19),
+    (2, 20),
+    (2, 21),
+    (2, 22),
+    (3, 23),
+    (3, 24),
+    (3, 25),
+    (4, 26),
+    (4, 27),
+    (5, 28),
+    (5, 29),
+    (5, 30);
+
+
+
+
